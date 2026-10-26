@@ -28,6 +28,10 @@ You can also use **Code → Download ZIP** on GitHub. Import the complete assemb
 
 The [file manifest](docs/file-manifest.csv) maps every original filename to its repository path and records its size and SHA-256 checksum. Files were reorganized and renamed without changing their contents.
 
+## Sample bill of materials
+
+See the [sample BOM](docs/bill-of-materials.md) for basic purchased components, CAD-derived quantities, custom parts, and specifications still to confirm. It is a planning sample, not yet a verified purchasing list.
+
 ## Contribute
 
 Fork this repository, create a branch such as `design/servo-holder-clearance`, make your changes, and open a pull request. Include a screenshot, explain the reason for the change, and share updated CAD exports. See [CONTRIBUTING.md](CONTRIBUTING.md).
@@ -40,7 +44,7 @@ This is a proposed V3 CAD snapshot. Physical fit, manufacturing settings, operat
 
 - Add native Fusion archives, preserving referenced assemblies where applicable.
 - Export the top plate, bottom plate, servo holder, and coupler individually.
-- Add a verified bill of materials with quantities and exact selected components.
+- Verify the [sample BOM](docs/bill-of-materials.md) against a physical build and add exact supplier selections and prices.
 - Add assembly photos, an assembly guide, and documented test results.
 - Confirm reference-model sources and licenses, and the role of `chassis-try1`.
 - Add print or fabrication exports once dimensions, materials, and processes are confirmed.
