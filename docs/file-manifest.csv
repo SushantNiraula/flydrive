@@ -1,0 +1,22 @@
+original_path,repository_path,bytes,sha256
+arm.step,hardware/v3/step/parts/arm.step,62236,d8e724d070f1e3c07a49b63f8d8543650dda706f6d1ba2ccb23732bc3c797357
+bldc-motor-plate.step,hardware/v3/step/parts/bldc-motor-plate.step,19901,ca3eb5a622439819b5e60f3310c8bf44479a562d4e7b7e2966d7fec1dbabc71f
+chassis-try1.step,hardware/v3/step/alternatives/chassis-try1.step,28114562,cbe7a8265b6686065c3264e17b57473d39b2bba69aef85a95dd23ca2c35fffc8
+clevis-block.step,hardware/v3/step/parts/clevis-block.step,25915,54c26b1b50285a445603ae6e928ce9975f8fefd0a408674632ea91d77654e2d1
+flydrive-assembly.step,hardware/v3/step/assemblies/flydrive-assembly.step,28546306,b9905b5ff4eed6d36f71c17087e10cd53afd9ff677bc7b408054fc9c5abcf558
+hinge-assembly.step,hardware/v3/step/assemblies/hinge-assembly.step,16505886,9e41bc9bbf750120968d639423d5133d21a2816bb7fae3f02b2811197db3d9a4
+hinge-shaft.step,hardware/v3/step/parts/hinge-shaft.step,11248,4bb3bb251cefb72dc1690e4ac6484bcfe16326df9ac4d58416f39e4cc83e39f2
+mg996_arm_round.step,hardware/v3/step/reference/mg996-arm-round.step,207939,31710033f00ba7ea324116c50efcd68b9e8b7a43a24df4dec626e44bf3cf8704
+n20-pinion-15t.step,hardware/v3/step/parts/n20-pinion-15t.step,1088049,ed1913f88363a48ec0a43485a7029e02dd047751dfe758b1b4874f200ba99bca
+pod-assembly.step,hardware/v3/step/assemblies/pod-assembly.step,11932182,458a49ca2c432b6a5149732d5d7cbf9cb3939cada4cb57577589c766781d5161
+pod-post.step,hardware/v3/step/parts/pod-post.step,16898,40042c7610b39510c670432749188a02edf8fe698a04344d97814598634236fb
+propeller-guard.step,hardware/v3/step/parts/propeller-guard.step,29136,9f56dd9b813f782358a72eb90b3b5c4a71efb051cce34fe320f1a1cc3d3d44b7
+references/3052 3-Blade Propeller 3-inch.step,hardware/v3/step/reference/3052-3-blade-propeller-3-inch.step,1501407,49d04cb13465c486d70ece8ae075566bce25317c4d17288fda799b504280d231
+references/BEARING_6704.step,hardware/v3/step/reference/bearing-6704.step,7309,904efff7ee6d323bdbd8acd510a4b2afed518bf9950dec25d30a30783c41fa6b
+references/BEARING_686.step,hardware/v3/step/reference/bearing-686.step,6931,03a745b9deb6a02ebc9b21c031e360707490b8fa993dd19c0d7d9a8336b6e91e
+references/Motor_N20_100rpm.step,hardware/v3/step/reference/motor-n20-100rpm.step,2226995,9782443a767bb8882582f5a079a420dadc06fc8d415cf81b48869d2feb2eb863
+references/T-Motor F100 2810 KV1350 5-6S Motor.step,hardware/v3/step/reference/t-motor-f100-2810-kv1350-5-6s-motor.step,6280169,8c7b0eb4f8d13e9ea00cb4bd159b2698dbfcc92aa91695be807a23dab3ca37db
+references/T-Motor V1507 1.5mm.step,hardware/v3/step/reference/t-motor-v1507-1.5mm.step,3441619,d2dfc9861ec7578d0c032ecf55e9d58c7e6d428995a195824839de4f5f333292
+references/mg996R_v2.step,hardware/v3/step/reference/mg996r-v2.step,2369951,e689ab994b8a7fde729b21fb07a5962d43da6ee4a480dce7796def05a6048603
+rotating-hub-driven.step,hardware/v3/step/parts/rotating-hub-driven.step,3287612,c4549ab8ae4252af0e76c43ab9bb6989765691833824f808e434e6f62922304e
+rotating-hub.step,hardware/v3/step/parts/rotating-hub.step,17510,c8e396a3389ebded9e01632fc5239f4022fa7b0fee7930132fbb29a88fcac17b

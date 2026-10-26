@@ -1,0 +1,5 @@
+*.step -text
+*.f3d binary
+*.f3z binary
+*.stl binary
+*.3mf binary
