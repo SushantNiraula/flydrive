@@ -1,20 +1,18 @@
 # FLYDRIVE Design History
 
-This document records the design directions explored so far. It is a development history, not a claim that any design was fully validated.
+This is a brief record of design directions explored so far, not a claim that any design was fully validated.
 
 ## Linear-actuator concept
 
-The linear-actuator approach was explored using the Mercury Drone repository as an external reference. This repository does not contain an original FLYDRIVE linear-actuator CAD design.
-
-Reference: [Mercury Drone repository](https://github.com/) — replace this link with the exact source repository URL before publication.
+The linear-actuator approach was explored using the Mercury Drone project as an external reference. No original FLYDRIVE linear-actuator CAD is included in this repository.
 
 ## V2 — Worm gear
 
-The V2 exploration includes CAD for a worm gear/gearbox and part of the body. The available exports do not form a complete vehicle design. The partial assembly also does not include the arm.
+The available V2 exports cover the worm-gear/gearbox and part of the body. They do not form a complete vehicle design. The supplied partial assembly has no arm.
 
 ## V3 — Servo-based
 
-The existing `hardware/v3` directory contains the servo-based CAD/STEP design archive. It is a proposed CAD design snapshot, not a physically validated prototype. Refer to the main README for its contents and limitations.
+The existing `hardware/v3` directory contains the servo-based CAD/STEP archive. It is a proposed CAD snapshot, not a physically validated prototype.
 
 ## Current position
 

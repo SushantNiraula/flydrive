@@ -1,6 +1,6 @@
 # FLYDRIVE Design Requirements
 
-These are the current design goals for the research phase. They are qualitative requirements, not measured performance results or finalized specifications.
+These are current qualitative goals for the research phase, not measured performance results or finalized specifications.
 
 - Compact and lightweight.
 - Good battery endurance.
@@ -10,4 +10,4 @@ These are the current design goals for the research phase. They are qualitative 
 - Investigate whether the flight propulsion architecture can also contribute to ground locomotion.
 - Avoid compromising flight performance, ground mobility, reliability, or endurance.
 
-No numerical targets or final architecture have been set. Update this document as requirements are made measurable and justified.
+No numerical targets or final architecture have been set.
