@@ -19,7 +19,7 @@ Prices checked 8 November 2026. Prices may change and may exclude delivery, tax,
 
 This listed actuator costs about 2.8 times the illustrative four-servo proxy and 5.6 times the two-servo proxy. This compares unit prices only. A fair comparison needs stroke, force, speed, mass, duty cycle, geometry, current draw, driver, limit sensing, and quantities. Those requirements have not been set.
 
-A separate Nepal listing has a 12 V, 10 mm push-pull solenoid at NPR 783, but that short-stroke lock actuator is not comparable to a 200 mm transformation actuator and is not used as the actuator estimate.
+A [separate Nepal listing](https://robonepal.com/product/pull-linear-actuator) has a 12 V, 10 mm push-pull solenoid at NPR 783, but that short-stroke lock actuator is not comparable to a 200 mm transformation actuator and is not used as the actuator estimate.
 
 ## Qualitative trade-offs
 
