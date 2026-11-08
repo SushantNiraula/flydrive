@@ -11,8 +11,8 @@ FLYDRIVE is an ongoing exploration of a hybrid aerial-ground robot. This reposit
 | `hardware/v3/` | Existing V3 servo-based CAD/STEP archive, including assemblies, parts, alternatives, and reference models |
 | `01_PREVIOUS_DESIGNS/V2_WORM_GEAR/` | Available V2 worm-gear and body CAD exports. This is a partial design, not a complete vehicle |
 | `01_PREVIOUS_DESIGNS/LINEAR_ACTUATOR/` | Notes on the linear-actuator concept, explored using the [Mercury Transforming Drone](https://github.com/L42ARO/Mercury-Transforming-Drone) as an external reference. No original FLYDRIVE CAD is included |
-| `02_RESEARCH_PAPERS/` | Research reference index for six papers relevant to hybrid aerial-ground and unconventional rotary-wing designs |
-| `03_DESIGN_ANALYSIS/` | Short design history and current qualitative design requirements |
+| `02_RESEARCH_PAPERS/` | DOI/source-link index for six papers relevant to hybrid aerial-ground and unconventional rotary-wing designs |
+| `03_DESIGN_ANALYSIS/` | Design history, qualitative requirements, and [external design references grouped by the supplied categories](03_DESIGN_ANALYSIS/REFERENCE_CLASSIFICATION.md) |
 
 ## V3 CAD
 
@@ -32,7 +32,7 @@ See [Design History](03_DESIGN_ANALYSIS/DESIGN_HISTORY.md) for context.
 
 ## Research
 
-The six-paper reading list and source links are in [Research References](02_RESEARCH_PAPERS/REFERENCES.md). This commit adds the reference index only, not PDF copies of the papers. The papers are external references; no summaries or conclusions have been added.
+The six-paper reading list provides DOI and source links in [Research References](02_RESEARCH_PAPERS/REFERENCES.md). The papers are not mirrored in this repository; use the linked publisher or repository landing pages to access them. The papers are external references, not original FLYDRIVE work.
 
 ## Design direction
 
