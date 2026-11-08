@@ -1,44 +1,39 @@
 # FLYDRIVE — Design Archive & Research
 
-FLYDRIVE is an ongoing exploration of a hybrid aerial-ground robot. This repository preserves earlier design work and the research references informing the next design phase.
+FLYDRIVE is an ongoing exploration of a hybrid aerial-ground robot. This repository keeps prior design work, current research references, and the basic requirements guiding the next design phase in one place.
 
-**Current status:** V3 is a proposed servo-based CAD design. It has not been physically validated. The next architecture has not been selected.
+**Current status:** The servo-based V3 is an unvalidated CAD design. V2 worm-gear files are partial. Linear-actuator work is an external-reference exploration. No new architecture or prototype has been selected.
 
 ## Repository contents
 
 | Folder | Contents |
 | --- | --- |
-| `hardware/v3/` | Existing V3 servo-based CAD/STEP archive, including assemblies, parts, alternatives, and reference models |
-| `01_PREVIOUS_DESIGNS/V2_WORM_GEAR/` | Available V2 worm-gear and body CAD exports. This is a partial design, not a complete vehicle |
-| `01_PREVIOUS_DESIGNS/LINEAR_ACTUATOR/` | Notes on the linear-actuator concept, explored using the [Mercury Transforming Drone](https://github.com/L42ARO/Mercury-Transforming-Drone) as an external reference. No original FLYDRIVE CAD is included |
-| `02_RESEARCH_PAPERS/` | DOI/source-link index for six papers relevant to hybrid aerial-ground and unconventional rotary-wing designs |
-| `03_DESIGN_ANALYSIS/` | Design history, qualitative requirements, and [external design references grouped by the supplied categories](03_DESIGN_ANALYSIS/REFERENCE_CLASSIFICATION.md) |
+| `01_PREVIOUS_DESIGNS/` | V2 worm gear, V3 servo-based CAD and components, and linear-actuator notes |
+| `02_RESEARCH_PAPERS/REFERENCES.md` | One index with all six DOI/source links and concise lessons from each paper |
+| `03_DESIGN_ANALYSIS/` | Design history, basic requirements, reference classes, and approach/cost comparison |
+| `docs/bill-of-materials.md` | CAD-derived V3 component counts and what remains to verify |
+
+## Previous designs
+
+- **V2 Worm Gear:** available gearbox/worm-gear and body CAD exports; incomplete, with no arm in the supplied partial assembly.
+- **V3 Servo-Based:** the 21 STEP exports, including assembly, candidate parts, servo/motor/propeller/bearing reference geometry, and alternatives, are under [V3 Servo-Based](01_PREVIOUS_DESIGNS/V3_SERVO_BASED/). The sample BOM is based on CAD occurrences and has not been checked against a physical build.
+- **Linear Actuator:** earlier exploration referencing the [Mercury Transforming Drone](https://github.com/tobieapb/mercury-transforming-drone/tree/main) and other external examples; no original FLYDRIVE actuator CAD is included.
+
+The [reference classification](03_DESIGN_ANALYSIS/REFERENCE_CLASSIFICATION.md) retains the supplied Servo Based, Linear Actuator Based, and Just Drone groups. These are research examples, not adopted designs.
 
 ## V3 CAD
 
-Start with [the V3 full assembly STEP](hardware/v3/step/assemblies/flydrive-assembly.step). Open it in Fusion 360 or another CAD tool that supports STEP.
+Start with the [V3 full assembly STEP](01_PREVIOUS_DESIGNS/V3_SERVO_BASED/step/assemblies/flydrive-assembly.step). STEP files carry transferable geometry, but not the original Fusion feature timeline or all native assembly relationships. Physical fit, fabrication, operation, and flight performance have not been verified.
 
-The V3 archive contains 21 STEP exports. STEP preserves transferable geometry, but not the original Fusion feature timeline or all native assembly relationships. Physical fit, manufacturing, operation, and flight performance have not been verified.
-
-See the [sample bill of materials](docs/bill-of-materials.md) for a planning reference. It is not an audited purchasing list.
-
-## Earlier design explorations
-
-- **V2 Worm Gear:** only the available gearbox/worm-gear and body CAD exports are included. The design is incomplete; the supplied partial assembly has no arm.
-- **Linear Actuator:** the [Mercury Transforming Drone](https://github.com/L42ARO/Mercury-Transforming-Drone) project was used as an external reference. The FLYDRIVE repository does not contain a corresponding original CAD design.
-- **V3 Servo-Based:** see `hardware/v3/` for the existing CAD archive.
-
-See [Design History](03_DESIGN_ANALYSIS/DESIGN_HISTORY.md) for context.
+See the [sample BOM](docs/bill-of-materials.md) for CAD occurrence counts, and the [design and cost comparison](03_DESIGN_ANALYSIS/DESIGN_COMPARISON.md) for dated retail examples. Neither is a verified purchase list or total build cost.
 
 ## Research
 
-The six-paper reading list provides DOI and source links in [Research References](02_RESEARCH_PAPERS/REFERENCES.md). The papers are not mirrored in this repository; use the linked publisher or repository landing pages to access them. The papers are external references, not original FLYDRIVE work.
+All six paper citations and reading notes are in the single [Research References](02_RESEARCH_PAPERS/REFERENCES.md) index. It links to DOI and arXiv landing pages; PDF copies are not mirrored here.
 
-## Design direction
+## Design requirements
 
-The current qualitative requirements are recorded in [Design Requirements](03_DESIGN_ANALYSIS/DESIGN_REQUIREMENTS.md). They are not measured performance claims or finalized numerical specifications.
-
-No new architecture has been selected. Research and comparison come before another prototype.
+The [basic requirements](03_DESIGN_ANALYSIS/DESIGN_REQUIREMENTS.md) cover hybrid modes, transition, flight viability, ground use, mass, endurance, reliability, safety, maintainability, acoustics, and transparent cost. Numerical targets still need to be set before selecting an architecture.
 
 ## Get the files
 
@@ -51,8 +46,8 @@ You can also use **Code → Download ZIP** on GitHub.
 
 ## Contributing
 
-Design feedback, comparison notes, and documentation improvements are welcome. Open an issue to discuss a change, or see [CONTRIBUTING.md](CONTRIBUTING.md).
+Design feedback, comparison notes, and documentation improvements are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License and attribution
 
-The existing V3 repository work is shared under [CERN-OHL-S-2.0](LICENSE). Third-party reference models may have separate rights and licenses; see [reference-models.md](docs/reference-models.md). Do not assume the repository license grants rights to third-party material.
+The original project work is shared under [CERN-OHL-S-2.0](LICENSE). Third-party reference models may have separate rights and licenses; see [reference-models.md](docs/reference-models.md). Do not assume the project license grants rights to third-party material.
