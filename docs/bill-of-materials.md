@@ -2,7 +2,7 @@
 
 **Status: planning sample, not a verified purchasing or manufacturing BOM.**
 
-This sample lists existing design components for a cost-conscious build discussion. Quantities come from recursively expanding the assembly relationships in `hardware/v3/step/assemblies/flydrive-assembly.step`. They are CAD occurrence counts, not physical-build verification. A reference filename alone does not confirm a supplier specification.
+This sample lists existing design components for a cost-conscious build discussion. Quantities come from recursively expanding the assembly relationships in `01_PREVIOUS_DESIGNS/V3_SERVO_BASED/step/assemblies/flydrive-assembly.step`. They are CAD occurrence counts, not physical-build verification. A reference filename alone does not confirm a supplier specification.
 
 ## Basic purchased components
 
@@ -38,7 +38,7 @@ These are CAD part counts for planning fabrication. **Material, manufacturing pr
 | Driven rotating hub | 4 | `step/parts/rotating-hub-driven.step`; contains nested hub/45-tooth gear geometry |
 | Servo holder | 2 candidate occurrences | Assembly contains `servo-holder` and `servo-holder (1)`; confirm whether both are required before fabrication |
 
-All listed relative export paths are under `hardware/v3/`. The standalone `rotating-hub.step` is available, but its separate manufacturing quantity is not established by a distinct matching occurrence in the main assembly; review it against the driven-hub geometry before adding another line item. Assembly files are not additional fabricated parts.
+All listed relative export paths are under `01_PREVIOUS_DESIGNS/V3_SERVO_BASED/`. The standalone `rotating-hub.step` is available, but its separate manufacturing quantity is not established by a distinct matching occurrence in the main assembly; review it against the driven-hub geometry before adding another line item. Assembly files are not additional fabricated parts.
 
 ## Required items outside this basic sample
 
@@ -52,3 +52,8 @@ This sample is deliberately incomplete and has no total build cost.
 ## Turn this into a verified BOM
 
 For each purchased item, add a supplier link, exact part number, confirmed specification, required quantity, unit price, currency and quote date. For custom parts, record material/process and verify the exported part against the assembly. Resolve the servo-holder and linkage questions, then check the complete list against a physical build before changing this document's status to verified.
+
+
+## Indicative prices
+
+No verified total is available. See [Design Approach and Cost Comparison](../03_DESIGN_ANALYSIS/DESIGN_COMPARISON.md) for dated local retail examples and assumptions. Exact manufacturer, SKU, fit, and current quotations still need confirmation before purchase.

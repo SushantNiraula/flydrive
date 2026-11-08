@@ -1,12 +1,39 @@
-# FLYDRIVE V3
+# FLYDRIVE — Design Archive & Research
 
-A CAD design project shared so people can explore it, make changes, and help it grow as a community.
+FLYDRIVE is an ongoing exploration of a hybrid aerial-ground robot. This repository keeps prior design work, current research references, and the basic requirements guiding the next design phase in one place.
 
-## Start with the full assembly
+**Current status:** The servo-based V3 is an unvalidated CAD design. V2 worm-gear files are partial. Linear-actuator work is an external-reference exploration. No new architecture or prototype has been selected.
 
-Open **[flydrive-assembly.step](hardware/v3/step/assemblies/flydrive-assembly.step)** in Fusion or another CAD tool that supports STEP. This is the proposed V3 complete design exported from `Chassis_Final`. The design includes the top plate, bottom plate, servo holder, coupler, and assembled components, as described by the project maintainer.
+## Repository contents
 
-This repository currently contains **21 STEP exports**. STEP provides transferable geometry; it does not preserve the original Fusion feature timeline or all assembly relationships. Native Fusion sources and print-ready exports have not yet been supplied.
+| Folder | Contents |
+| --- | --- |
+| `01_PREVIOUS_DESIGNS/` | V2 worm gear, V3 servo-based CAD and components, and linear-actuator notes |
+| `02_RESEARCH_PAPERS/REFERENCES.md` | One index with all six DOI/source links and concise lessons from each paper |
+| `03_DESIGN_ANALYSIS/` | Design history, basic requirements, reference classes, and approach/cost comparison |
+| `docs/bill-of-materials.md` | CAD-derived V3 component counts and what remains to verify |
+
+## Previous designs
+
+- **V2 Worm Gear:** available gearbox/worm-gear and body CAD exports; incomplete, with no arm in the supplied partial assembly.
+- **V3 Servo-Based:** the 21 STEP exports, including assembly, candidate parts, servo/motor/propeller/bearing reference geometry, and alternatives, are under [V3 Servo-Based](01_PREVIOUS_DESIGNS/V3_SERVO_BASED/). The sample BOM is based on CAD occurrences and has not been checked against a physical build.
+- **Linear Actuator:** earlier exploration referencing the [Mercury Transforming Drone](https://github.com/tobieapb/mercury-transforming-drone/tree/main) and other external examples; no original FLYDRIVE actuator CAD is included.
+
+The [reference classification](03_DESIGN_ANALYSIS/REFERENCE_CLASSIFICATION.md) retains the supplied Servo Based, Linear Actuator Based, and Just Drone groups. These are research examples, not adopted designs.
+
+## V3 CAD
+
+Start with the [V3 full assembly STEP](01_PREVIOUS_DESIGNS/V3_SERVO_BASED/step/assemblies/flydrive-assembly.step). STEP files carry transferable geometry, but not the original Fusion feature timeline or all native assembly relationships. Physical fit, fabrication, operation, and flight performance have not been verified.
+
+See the [sample BOM](docs/bill-of-materials.md) for CAD occurrence counts, and the [design and cost comparison](03_DESIGN_ANALYSIS/DESIGN_COMPARISON.md) for dated retail examples. Neither is a verified purchase list or total build cost.
+
+## Research
+
+All six paper citations and reading notes are in the single [Research References](02_RESEARCH_PAPERS/REFERENCES.md) index. It links to DOI and arXiv landing pages; PDF copies are not mirrored here.
+
+## Design requirements
+
+The [basic requirements](03_DESIGN_ANALYSIS/DESIGN_REQUIREMENTS.md) cover hybrid modes, transition, flight viability, ground use, mass, endurance, reliability, safety, maintainability, acoustics, and transparent cost. Numerical targets still need to be set before selecting an architecture.
 
 ## Get the files
 
@@ -15,44 +42,12 @@ git clone https://github.com/SushantNiraula/flydrive.git
 cd flydrive
 ```
 
-You can also use **Code → Download ZIP** on GitHub. Import the complete assembly to explore the design, or open an individual part to work on a change.
+You can also use **Code → Download ZIP** on GitHub.
 
-## What's included
+## Contributing
 
-| Folder | Contents |
-| --- | --- |
-| [Assemblies](hardware/v3/step/assemblies) | Complete FLYDRIVE, hinge, and pod assemblies |
-| [Parts](hardware/v3/step/parts) | Individual project part exports |
-| [Alternatives](hardware/v3/step/alternatives) | `chassis-try1`, retained for comparison; its relationship to the proposed assembly needs confirmation |
-| [Reference models](hardware/v3/step/reference) | Bearings, motors, propeller, servo, and round servo arm; see attribution notes |
-
-The [file manifest](docs/file-manifest.csv) maps every original filename to its repository path and records its size and SHA-256 checksum. Files were reorganized and renamed without changing their contents.
-
-## Sample bill of materials
-
-See the [sample BOM](docs/bill-of-materials.md) for basic purchased components, CAD-derived quantities, custom parts, and specifications still to confirm. It is a planning sample, not yet a verified purchasing list.
-
-## Contribute
-
-Fork this repository, create a branch such as `design/servo-holder-clearance`, make your changes, and open a pull request. Include a screenshot, explain the reason for the change, and share updated CAD exports. See [CONTRIBUTING.md](CONTRIBUTING.md).
-
-Design reviews, fit checks, documentation, and build reports are welcome. Start an issue to discuss a change or report a problem.
-
-## Current status and next steps
-
-This is a proposed V3 CAD snapshot. Physical fit, manufacturing settings, operation, and flight performance have not been verified as part of this publication.
-
-- Add native Fusion archives, preserving referenced assemblies where applicable.
-- Export the top plate, bottom plate, servo holder, and coupler individually.
-- Verify the [sample BOM](docs/bill-of-materials.md) against a physical build and add exact supplier selections and prices.
-- Add assembly photos, an assembly guide, and documented test results.
-- Confirm reference-model sources and licenses, and the role of `chassis-try1`.
-- Add print or fabrication exports once dimensions, materials, and processes are confirmed.
+Design feedback, comparison notes, and documentation improvements are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License and attribution
 
-Original FLYDRIVE project work is shared under **CERN-OHL-S-2.0**; see [LICENSE](LICENSE). Preserve notices and share covered modifications under that license as required by its terms.
-
-Third-party models retain their own rights and are excluded from any claim that the project license grants rights to them. Their provenance and licenses have not been supplied. See [reference-models.md](docs/reference-models.md), including the note about reference geometry embedded in assemblies.
-
-The supplied Fusion listing names **Gopal Sharma** as owner. This repository is maintained through **SushantNiraula**. Ownership metadata alone does not establish authorship of every model.
+The original project work is shared under [CERN-OHL-S-2.0](LICENSE). Third-party reference models may have separate rights and licenses; see [reference-models.md](docs/reference-models.md). Do not assume the project license grants rights to third-party material.

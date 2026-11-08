@@ -13,6 +13,6 @@ These exports were supplied as part of the CAD folder. Source URLs, authorship, 
 | `mg996r-v2.step` | mg996R_v2 |
 | `mg996-arm-round.step` | mg996_arm_round; treated as a reference pending authorship confirmation |
 
-All files above are in `hardware/v3/step/reference/`. The round arm was originally at the top level; its export header identifies a FreeCAD model, which does not establish its author or license.
+All files above are in `01_PREVIOUS_DESIGNS/V3_SERVO_BASED/step/reference/`. The round arm was originally at the top level; its export header identifies a FreeCAD model, which does not establish its author or license.
 
 Assembly STEP files may also embed reference geometry. Moving standalone references into this directory does not remove embedded geometry. Model labels are not a verified bill of materials; multiple motor models do not establish that all are used in the proposed assembly.
